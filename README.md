@@ -55,8 +55,6 @@ Terminal Example:
 
 export CRAZY_TAXI_GCI_PATH="$HOME/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/Card A"
 
-Then launch Archipelago from the same terminal.
-
 Client commands
 /ct_attach
 
