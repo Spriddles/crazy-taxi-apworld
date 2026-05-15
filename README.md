@@ -15,10 +15,10 @@ This is a public beta for **Crazy Taxi GameCube** running through **Dolphin Emul
 
 ### Windows
 
-```powershell
+### In terminal on Windows
 py -m pip install dolphin-memory-engine
 
-Ubuntu / Linux
+In terminal on Ubuntu / Linux
 python3 -m pip install --user --break-system-packages dolphin-memory-engine
 
 Install APWorld
@@ -43,7 +43,7 @@ The client needs access to Dolphin's GameCube memory card save folder.
 
 Windows
 
-Example:
+Terminal Example:
 
 $env:CRAZY_TAXI_GCI_PATH="C:\Users\<YourName>\AppData\Roaming\Dolphin Emulator\GC\USA\Card A"
 
@@ -51,7 +51,7 @@ Then launch Archipelago from the same PowerShell window.
 
 Ubuntu / Linux Flatpak Dolphin
 
-Example:
+Terminal Example:
 
 export CRAZY_TAXI_GCI_PATH="$HOME/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/Card A"
 
