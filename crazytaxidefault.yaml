@@ -1,0 +1,28 @@
+name: crazytaxi
+game: Crazy Taxi
+
+Crazy Taxi:
+  # License behavior:
+  # progressive = Fare License 1, then 2, then 3, etc. unlock ranges in order
+  # non_progressive = each Fare License unlocks its matching range directly
+  fare_license_mode: progressive
+
+  # Each fare block = 23 fare checks
+  # 4 = short sync / 92 fares
+  # 8 = standard / 184 fares
+  # 12 = long async / 276 fares
+  fare_blocks: 8
+
+  # Number of Crazy Box stages required for goal
+  # Short sync: 4-8
+  # Standard: 9-15
+  # Long/all-stage: 16
+  required_crazy_box_clears: 12
+
+  # Timer items/traps
+  enable_timer_items: true
+  trap_percentage: 10
+
+  # Currently experimental/disabled in client
+  death_link: false
+  failed_fares_for_deathlink: 5
