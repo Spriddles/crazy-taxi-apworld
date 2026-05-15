@@ -55,6 +55,8 @@ Terminal Example:
 
 export CRAZY_TAXI_GCI_PATH="$HOME/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/Card A"
 
+Change filename to "crazy_taxi" if it fails to generate at first.
+
 Client commands
 /ct_attach
 
